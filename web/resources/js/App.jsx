@@ -1,9 +1,20 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client'
+import ListItem from "./components/ListItem";
 
 export default function App(){
     return(
-        <h1>How To Install React in Laravel 9 with Vite</h1>
+        <div id="container-wrapper" className="pad-top-100 pad-bottom-100 parallax">
+            <div className="container-fluid">
+                <div className="row">
+                    <ListItem />
+                            
+                </div>
+                {/* end row */}
+                
+            </div>
+            {/* end container */}
+        </div>
     );
 }
 
