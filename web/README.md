@@ -9,28 +9,8 @@
 
 ## Laravel 9 Vite React
 
-### Install:
+### From this commit, apply simpler method to intergrate reactjs and vite:
 
-- Pull code
+- ref: https://larainfo.com/blogs/install-react-js-in-laravel-9-with-vite
 
-- composer install
-
-- npm install
-
-- generate env, update APP_URL=http://localhost:8000
-
-- php artisan key:generate
-
-- npm run dev
-
-- replace npm run server port to app/helper.php
-
-- php artisan serve
-
-### ref: https://techvblogs.com/blog/how-to-install-react-in-laravel-9-with-vite
-
-- Note: above link is missing:	
-
-- -	In step 9, we need update port 3000 by real port when use run npm run dev
-
-- -	Also, update autoload for file app/helper.php (ref: https://techvblogs.com/blog/how-to-create-custom-helper-functions-in-laravel
+- note: above link is missing: after create laravel app, run `npm install`
